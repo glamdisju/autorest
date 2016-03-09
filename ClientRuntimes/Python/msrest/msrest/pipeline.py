@@ -423,4 +423,3 @@ class ClientHTTPConnectionPool(HTTPConnectionPool):
                 del self.headers['cookie']
         return response
 
-pool_classes_by_scheme['http'] = ClientHTTPConnectionPool
